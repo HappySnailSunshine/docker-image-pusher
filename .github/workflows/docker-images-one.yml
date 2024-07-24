@@ -3,7 +3,7 @@ name: Docker Images One
 on:
   push:
     branches:
-      - main-close
+      - main
 
 jobs:
   deploy:
@@ -18,14 +18,14 @@ jobs:
 
     - name: Configure Docker to use HTTP for private registry
       run: |
-        echo '{"insecure-registries":["116.198.201.187:5000"]}' | sudo tee /etc/docker/daemon.json
+        echo '{"insecure-registries":["192.168.10.101:5000"]}' | sudo tee /etc/docker/daemon.json
         sudo systemctl restart docker
 
     - name: Pull MySQL image from Docker Hub
-      run: docker pull mysql:latest
+      run: docker pull konradkleine/docker-registry-frontend:v2
 
     - name: Tag MySQL image for private registry
-      run: docker tag mysql:latest 116.198.201.187:5000/mysql:latest
+      run: docker tag konradkleine/docker-registry-frontend:v2 192.168.10.101:5000/docker-registry-frontend:v2
 
     - name: Push MySQL image to private registry
-      run: docker push 116.198.201.187:5000/mysql:latest
+      run: docker push 192.168.10.101:5000/docker-registry-frontend:v2
