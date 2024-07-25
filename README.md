@@ -6,12 +6,12 @@
 mysql:8.0.32          
 phpmyadmin:5.2.1
 redis:6.2
-redis-commander:0.8.0      x
+redis-commander:0.8.0      xxx
 rabbitmq:3.12.9
 rocketmq:5.1.0
 skywalking-oap-server:9.3.0
 skywalking-ui:9.3.0
-rocketmq:5.1.0
+rocketmq:5.1.0              xxx
 nginx:1.25.1
 prometheus:2.47.2
 grafana:10.2.0
