@@ -1,6 +1,3 @@
-skywalking-oap-server:9.3.0
-skywalking-ui:9.3.0
-rocketmq:5.1.0
 nginx:1.25.1
 prometheus:2.47.2
 grafana:10.2.0
