@@ -3,10 +3,10 @@
 [**images.txt**](https://github.com/fuzhengwei/docker-image-pusher/blob/main/images.txt)
 
 ```java
-mysql:8.0.32
+mysql:8.0.32          
 phpmyadmin:5.2.1
 redis:6.2
-redis-commander:0.8.0
+redis-commander:0.8.0      x
 rabbitmq:3.12.9
 rocketmq:5.1.0
 skywalking-oap-server:9.3.0
