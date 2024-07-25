@@ -13,8 +13,8 @@ skywalking-oap-server:9.3.0
 skywalking-ui:9.3.0
 rocketmq:5.1.0              xxx
 nginx:1.25.1
-prometheus:2.47.2
-grafana:10.2.0
+prometheus:2.47.2           xxx
+grafana:10.2.0              xxx
 canal-server:v1.1.7
 canal-adapter:v1.1.6
 elasticsearch:7.17.14
