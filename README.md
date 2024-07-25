@@ -6,9 +6,9 @@
 mysql:8.0.32          
 phpmyadmin:5.2.1
 redis:6.2
-redis-commander:0.8.0      xxx
+rediscommander/redis-commander:latest
 rabbitmq:3.12.9
-rocketmq:5.1.0              xxx
+apache/rocketmq:5.1.0          
 skywalking-oap-server:9.3.0
 skywalking-ui:9.3.0
 rocketmq:5.1.0              xxx
