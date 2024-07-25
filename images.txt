@@ -1,3 +1,4 @@
+apache/rocketmq:5.1.0
 zookeeper:3.9.0
 xxl-job-aarch64:2.4.0
 xxl-job-admin:2.4.0
