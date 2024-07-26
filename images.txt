@@ -1,4 +1,6 @@
-mysql:8.0.32
+zookeeper:3.8
+bitnami/kafka:3.6.2
+nickzurich/kafka-eagle:3.0.1
 redis:6.0.6
 rediscommander/redis-commander:latest
 rabbitmq:3.12.9
@@ -12,9 +14,6 @@ kibana:7.17.1
 logstash:7.17.1
 nginx:latest
 seataio/seata-server:2.0.0
-zookeeper:3.8
-bitnami/kafka:3.6.2
-nickzurich/kafka-eagle:3.0.1
 apache/skywalking-oap-server:10.0.1
 apache/skywalking-ui:10.0.1
 bitnami/prometheus:2.53.1
