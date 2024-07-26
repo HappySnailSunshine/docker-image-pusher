@@ -3,32 +3,34 @@
 [**images.txt**](https://github.com/fuzhengwei/docker-image-pusher/blob/main/images.txt)
 
 ```java
-mysql:8.0.32          
-phpmyadmin:5.2.1
-redis:6.2
+mysql:8.0.32
+redis:6.0.6
 rediscommander/redis-commander:latest
 rabbitmq:3.12.9
-apache/rocketmq:5.1.0          
-skywalking-oap-server:9.3.0
-skywalking-ui:9.3.0
-rocketmq:5.1.0              xxx
-nginx:1.25.1
-prometheus:2.47.2           xxx
-grafana:10.2.0              xxx
-canal-server:v1.1.7
-canal-adapter:v1.1.6
-elasticsearch:7.17.14
-kibana:7.17.14
-zookeeper:3.9.0
-xxl-job-aarch64:2.4.0
-xxl-job-admin:2.4.0
-nacos-server:v2.2.3-slim
-kafka:3.7.0
-kafka-eagle:3.0.2
-logstash:7.14.2
+nacos/nacos-server:v2.0.4
+bladex/sentinel-dashboard:1.8.7
+apache/rocketmq:5.1.0
+apacherocketmq/rocketmq-dashboard:latest
 registry:latest
-portainer:latest
-jenkins/jenkins:2.439
+elasticsearch:7.17.1
+kibana:7.17.1
+logstash:7.17.1
+nginx:latest
+seataio/seata-server:2.0.0
+zookeeper:3.8
+bitnami/kafka:3.6.2
+nickzurich/kafka-eagle:3.0.1
+apache/skywalking-oap-server:10.0.1
+apache/skywalking-ui:10.0.1
+bitnami/prometheus:2.53.1
+grafana/grafana:11.1.1
+jenkins/jenkins:2.469
+portainer/portainer:latest
+logstash:8.14.3
+canal/canal-server:v1.1.7
+slpcat/canal-adapter:v1.1.4
+vulhub/xxl-job:2.2.0-executor
+vulhub/xxl-job:2.2.0-admin
 ```
 
 1. 在 `images.txt` 添加你需要的镜像（PR方式提交），你可以从 [https://hub.docker.com/](https://hub.docker.com/) 搜索需要的镜像后添加。
