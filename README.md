@@ -20,6 +20,8 @@ seataio/seata-server:2.0.0
 zookeeper:3.8
 bitnami/kafka:3.6.2
 nickzurich/kafka-eagle:3.0.1
+sheepkiller/kafka-manager:latest
+obsidiandynamics/kafdrop:latest
 apache/skywalking-oap-server:10.0.1
 apache/skywalking-ui:10.0.1
 bitnami/prometheus:2.53.1
@@ -31,6 +33,7 @@ canal/canal-server:v1.1.7
 slpcat/canal-adapter:v1.1.4
 vulhub/xxl-job:2.2.0-executor
 vulhub/xxl-job:2.2.0-admin
+
 ```
 
 1. 在 `images.txt` 添加你需要的镜像（PR方式提交），你可以从 [https://hub.docker.com/](https://hub.docker.com/) 搜索需要的镜像后添加。
