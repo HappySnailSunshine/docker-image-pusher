@@ -33,6 +33,7 @@ canal/canal-server:v1.1.7
 slpcat/canal-adapter:v1.1.4
 vulhub/xxl-job:2.2.0-executor
 vulhub/xxl-job:2.2.0-admin
+xuxueli/xxl-job-admin:2.4.1
 
 ```
 
